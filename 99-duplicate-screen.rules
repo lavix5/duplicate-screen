@@ -1,0 +1,1 @@
+KERNEL=="card0", SUBSYSTEM=="drm", ENV{DISPLAY}=":0", ENV{XAUTHORITY}="/home/user/.Xauthority", ACTION=="change", RUN+="/home/user/.screenlayout/display_switch.sh"
